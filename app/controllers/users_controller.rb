@@ -12,6 +12,9 @@ class UsersController < ApplicationController
   def show
   end
 
+  def first_post
+    @user.microposts.first
+  end
   # GET /users/new
   def new
     @user = User.new
