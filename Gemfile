@@ -7,7 +7,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '5.1.6'
 gem 'coffee-rails', '4.2.2'
 gem 'jbuilder', '2.7.0'
 gem 'jquery-rails', '4.3.1'
