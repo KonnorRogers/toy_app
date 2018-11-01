@@ -63,6 +63,8 @@ Database created via sqlite3 & rails generate scaffolding
     OR if you have an existing app name
     
       heroku git:remote -a app-name
+      
+    THEN
     
       git push heroku master
     
