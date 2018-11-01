@@ -12,17 +12,18 @@
 * Ruby version - 2.5.1
 
 * System dependencies - Listed under Gemfile
+
+      gem install bundler
     
-    gem install bundler
-    
-    bundle install --without production
+      bundle install --without production
     
 For easy installation of dependencies
     
 
 * Configuration
-  From command line:
-    
+
+From command line:
+  
     cd /path/to/toy_app
     
     rails server
@@ -41,11 +42,11 @@ For easy installation of dependencies
 
 * Database creation
 
-    Database created via sqlite3 & rails generate scaffolding
+Database created via sqlite3 & rails generate scaffolding
 
 * Database initialization
 
-    rails db:migrate
+      rails db:migrate
 
 * How to run the test suite
 
@@ -55,15 +56,15 @@ For easy installation of dependencies
 
   Deployed via heroku
     
-    heroku login
+      heroku login
     
-    heroku create
+      heroku create
     
     OR if you have an existing app name
     
-    heroku git:remote -a app-name
+      heroku git:remote -a app-name
     
-    git push heroku master
+      git push heroku master
     
  Once deployed, initialize the database with:
  
