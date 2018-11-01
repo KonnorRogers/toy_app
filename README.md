@@ -5,9 +5,9 @@
 
 ## Link & Screenshot
 
-(Link to Heroku app)[https://toy-app-paramagicdev.herokuapp.com/]
+[Link to Heroku app](https://toy-app-paramagicdev.herokuapp.com/)
 
-!(Screenshot)[https://github.com/ParamagicDev/toy_app/blob/master/public/heroku_screenshot.png]
+![Screenshot](https://github.com/ParamagicDev/toy_app/blob/master/public/heroku_screenshot.png)
 
 * Ruby version - 2.5.1
 
